@@ -31,10 +31,10 @@ setup(
     version='0.1.0',
     license='MIT license',
     description='An sqlalchemy to JSON (simpleobject) serialization',
-    long_description='%s\n%s' % (
-        re.compile('^.. start-badges.*^.. end-badges', re.M | re.S).sub('', read('README.rst')),
-        re.sub(':[a-z]+:`~?(.*?)`', r'``\1``', read('CHANGELOG.rst'))
-    ),
+#     long_description='%s\n%s' % (
+#         re.compile('^.. start-badges.*^.. end-badges', re.M | re.S).sub('', read('README.rst')),
+#         re.sub(':[a-z]+:`~?(.*?)`', r'``\1``', read('CHANGELOG.rst'))
+#     ),
     author='Sergei Beilin',
     author_email='saabeilin@gmail.com',
     url='https://github.com/saabeilin/sqlalchemy-simpleobject',
